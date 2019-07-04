@@ -1,0 +1,4 @@
+- "path": "/urlshort-godoc"
+  "redirect": "https://godoc.org/github.com/gophercises/urlshort"
+- "path": "/fb"
+  "redirect": "https://facebook.com"

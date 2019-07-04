@@ -1,1 +1,1 @@
-module github.com/aldermann/quiz
+module gophercise/quiz

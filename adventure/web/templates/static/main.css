@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    width: 70%;
+    max-width: 700px;
+    margin: auto;
+}
+
+button {
+    height: 30px;
+}
+
+.option {
+    height: auto;
+}
