@@ -1,5 +1,11 @@
 package game
 
+const (
+    Win = 1
+    Lose = -1
+    Draw = 0
+)
+
 func (b Board) checkRow () int {
     for _, row := range b.container {
         allX, allO := true, true
@@ -12,13 +18,13 @@ func (b Board) checkRow () int {
             }
         }
         if allX {
-            return -1
+            return Lose
         }
         if allO {
-            return 1
+            return Win
         }
     }
-    return 0
+    return Draw
 }
 
 func (b Board) checkColumn () int {
@@ -33,13 +39,13 @@ func (b Board) checkColumn () int {
             }
         }
         if allX {
-            return -1
+            return Lose
         }
         if allO {
-            return 1
+            return Win
         }
     }
-    return 0
+    return Draw
 }
 
 func (b Board) checkDiagonal () int {
@@ -56,10 +62,10 @@ func (b Board) checkDiagonal () int {
         }
     }
     if allX {
-        return -1
+        return Lose
     }
     if allO {
-        return 1
+        return Win
     }
 
     allX, allO = true, true
@@ -73,13 +79,13 @@ func (b Board) checkDiagonal () int {
     }
 
     if allX {
-        return -1
+        return Lose
     }
     if allO {
-        return 1
+        return Win
     }
 
-    return 0
+    return Draw
 }
 
 func (b Board) GetValue () int {
@@ -95,7 +101,7 @@ func (b Board) GetValue () int {
     if d != 0 {
         return d
     }
-    return 0
+    return Draw
 }
 
 func (b Board) IsFull () bool {

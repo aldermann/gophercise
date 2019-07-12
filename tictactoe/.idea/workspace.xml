@@ -2,102 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="164df011-8715-4b53-bc32-44114c687d08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../adventure/.idea/adventure.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/adventure" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/cli/cli.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/cli/context/context.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/story.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/story/story.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/utils/clear.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/utils/utils.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/web/routes/arc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/web/routes/ending.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/web/routes/index.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/web/routes/notfound.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/web/routes/template.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/web/templates/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/web/templates/arc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/web/templates/ending.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/web/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/web/templates/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/web/templates/static/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../adventure/web/web.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sitemapGen/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sitemapGen/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sitemapGen/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sitemapGen/.idea/sitemapGen.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sitemapGen/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sitemapGen/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sitemapGen/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sitemapGen/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sitemapGen/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sitemapGen/link/linkParser.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sitemapGen/link/type.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sitemapGen/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sitemapGen/queue/queue.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sitemapGen/sitemap/sitemap.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sitemapGen/sitemap/xml.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sitemapGen/urlparse/url.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sitemapGen/utils/utils.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/.idea/task.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/cmd/add.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/cmd/completed.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/cmd/do.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/cmd/list.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/cmd/remove.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/cmd/root.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/color/color.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/color/print.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/manager/completed.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/manager/db.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/manager/mark.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/manager/task.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/task" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/tictactoe.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/minimax.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/board.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/move.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/print.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/value.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../urlshort/.idea/go.imports.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../urlshort/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../urlshort/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../urlshort/.idea/urlshort.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../urlshort/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../urlshort/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../urlshort/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../urlshort/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../urlshort/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../urlshort/mapHandler/mapHandler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../urlshort/path.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../urlshort/utils/flagParser.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../urlshort/utils/utils.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../urlshort/yamlHandler/YAMLHandler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quiz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../quiz/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quiz/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../quiz/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/minimax.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/minimax.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/move.go" beforeDir="false" afterPath="$PROJECT_DIR$/game/move.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/value.go" beforeDir="false" afterPath="$PROJECT_DIR$/game/value.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,38 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="55" column="107" selection-start-line="55" selection-start-column="107" selection-end-line="55" selection-end-column="107" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/minimax.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-              <folding>
-                <element signature="e#19#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/move.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -167,9 +45,9 @@
         <option value="$PROJECT_DIR$/game/print.go" />
         <option value="$PROJECT_DIR$/game/board.go" />
         <option value="$PROJECT_DIR$/game/value.go" />
-        <option value="$PROJECT_DIR$/game/move.go" />
-        <option value="$PROJECT_DIR$/algorithm/minimax.go" />
         <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/algorithm/minimax.go" />
+        <option value="$PROJECT_DIR$/game/move.go" />
       </list>
     </option>
   </component>
@@ -186,6 +64,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,7 +86,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,9 +136,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26666668" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26666668" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -303,6 +180,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/input.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/value.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/game/print.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -313,41 +204,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/value.go">
+    <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="108" column="15" selection-start-line="108" selection-start-column="15" selection-end-line="108" selection-end-column="15" />
+        <state relative-caret-position="440">
+          <caret line="76" column="36" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/game/move.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="220">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/minimax.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        <state relative-caret-position="227">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
             <element signature="e#19#50#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="55" column="107" selection-start-line="55" selection-start-column="107" selection-end-line="55" selection-end-column="107" />
         </state>
       </provider>
     </entry>

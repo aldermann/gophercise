@@ -3,6 +3,7 @@ package main
 import (
     "fmt"
     "math"
+    "math/rand"
     "time"
 
     "tictactoe/algorithm"
@@ -16,7 +17,7 @@ func clearScreen() {
 func estimateDepth(moveLeft int) int {
     x := 1.0
     i := 0
-    threshold := math.Pow(1e8, 0.5)
+    threshold := math.Pow(1e8, 1)
     for i = moveLeft; i > 0; i-- {
         x = x * float64(i)
         if threshold <= x {
@@ -44,7 +45,7 @@ func play(r, c int) {
         moveLeft--
         clearScreen()
         currentBoard.Print()
-        if currentBoard.GetValue() == -1 {
+        if currentBoard.GetValue() == game.Lose {
             fmt.Println("You won!!!!")
             break
         }
@@ -53,15 +54,15 @@ func play(r, c int) {
             break
         }
         start := time.Now()
-        _, nextMove := algorithm.CalculateBestMove(currentBoard, int(-1e9), int(1e9),estimateDepth(moveLeft), true, true)
+        _, nextMove := algorithm.CalculateBestMove(currentBoard, int(-1e9), int(1e9), estimateDepth(moveLeft), true, true)
         currentBoard = nextMove
-        moveLeft --;
+        moveLeft--
         t := time.Now()
         elapsed := t.Sub(start)
         clearScreen()
         fmt.Printf("The operation took %f s\n", float64(elapsed)/float64(time.Second))
         currentBoard.Print()
-        if currentBoard.GetValue() == 1 {
+        if currentBoard.GetValue() == game.Win {
             fmt.Println("You lost")
             break
         }
@@ -73,6 +74,7 @@ func play(r, c int) {
 }
 
 func main() {
+    rand.Seed(time.Now().UnixNano())
     row, col := 0, 0
     var err error
     for {
